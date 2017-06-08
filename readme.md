@@ -19,7 +19,7 @@ PizzaAPI
 
 ## PizzaAPI - Document
 
-http://pizza.dev/doc.html
+Example: http://pizza.dev/doc.html
 
 ## Manager Pizzas and Pizza Options
 - Login to admin panel and create some pizzas
