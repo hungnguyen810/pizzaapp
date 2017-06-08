@@ -1,0 +1,53 @@
+.panel-heading {
+
+  &.has-buttons {
+    @include clearfix;
+
+    .panel-title {
+      line-height: 30px;
+      float: left;
+    }
+
+    .btn-group {
+      float: right;
+    }
+  }
+
+}
+
+.align-middle {
+  vertical-align: middle;
+}
+.table.align-middle {
+  & > thead > tr > th,
+  & > thead > tr > td,
+  & > tbody > tr > th,
+  & > tbody > tr > td,
+  & > tfoot > tr > th,
+  & > tfoot > tr > td {
+    vertical-align: middle;
+  }
+}
+
+.table.table-no-margin {
+  margin-bottom: 0;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.form-inline {
+
+  .form-actions {
+    button {
+      margin-top: 27px;
+      width: 100%;
+
+      @media screen and (max-width: 768px) {
+        margin-top: 0;
+      }
+    }
+  }
+
+}
